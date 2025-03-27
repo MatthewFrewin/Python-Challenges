@@ -35,10 +35,10 @@ dungeon_sprite_map = {
 }
 
 hardcoded_dungeon = [
-    [1,1,1,1,1],
-    [1,0,2,0,1],
-    [1,0,0,0,1],
-    [1,1,1,1,1]
+    [Wall, Wall,  Wall,      Wall,  Wall],
+    [Wall, Empty, Character, Empty, Wall],
+    [Wall, Empty, Empty,     Empty, Wall],
+    [Wall, Wall,  Wall,      Wall,  Wall]
 ]
 
 def render_dungeon(dungeon):
